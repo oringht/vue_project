@@ -6,10 +6,10 @@ import App from "./App.vue";
 //import "mint-ui/lib/style.css";
 //头部导入
 import { Header } from "mint-ui";
-
 Vue.component(Header.name, Header);
 //导入mui样式
 import "./lib/mui/css/mui.css";
+import "./lib/mui/css/icons-extra.css";
 const vm = new Vue({
   el: "#app",
   render: function(createElement) {
